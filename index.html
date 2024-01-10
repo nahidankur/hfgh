@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://amifitpro.com/lp/sw/rifa-larry/ -->
+<html lang="en" style="" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><script id="allow-copy_script">(function agent() {
+    let unlock = false
+    document.addEventListener('allow_copy', (event) => {
+      unlock = event.detail.unlock
+    })
+
+    const copyEvents = [
+      'copy',
+      'cut',
+      'contextmenu',
+      'selectstart',
+      'mousedown',
+      'mouseup',
+      'mousemove',
+      'keydown',
+      'keypress',
+      'keyup',
+    ]
+    const rejectOtherHandlers = (e) => {
+      if (unlock) {
+        e.stopPropagation()
+        if (e.stopImmediatePropagation) e.stopImmediatePropagation()
+      }
+    }
+    copyEvents.forEach((evt) => {
+      document.documentElement.addEventListener(evt, rejectOtherHandlers, {
+        capture: true,
+      })
+    })
+  })()</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta http-equiv="origin-trial" content="Az520Inasey3TAyqLyojQa8MnmCALSEU29yQFW8dePZ7xQTvSt73pHazLFTK5f7SyLUJSo2uKLesEtEa9aUYcgMAAACPeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IkRpc2FibGVUaGlyZFBhcnR5U3RvcmFnZVBhcnRpdGlvbmluZyIsImV4cGlyeSI6MTcyNTQwNzk5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <meta name="csrf-param" content="authenticity_token">
+  <meta name="csrf-token" content="Fc4NBXmGpDxnTa8ovsK/C2PnF6YKpHTwth0vPAeRM2OQiEBn9KD+csUIZsobLq/UzESX+Sv/z5PgQ0PsucwIJg==">
+  <link rel="stylesheet" media="screen" href="./Dia De Reyes Rifa _ Raffle Creator_files/page-d0d389bf899c37417e3ca90798c7c53c3597309605c901bf08251bfec0ac57fe.css">
+
+  <link rel="stylesheet" media="screen" href="./Dia De Reyes Rifa _ Raffle Creator_files/video.css">
+
+  <meta name="description" content="Dia De Reyes Rifa  is raising funds online with Raffle Creator!">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:url" content="https://jacingmarches.com/click">
+  <meta name="twitter:title" content="Dia De Reyes Rifa ">
+  <meta name="twitter:description" content="Dia De Reyes Rifa  is raising funds online with Raffle Creator!">
+  <meta name="twitter:image" content="https://rafflecreator.s3.amazonaws.com/f04a5e0a-bff0-493d-831c-ccc87a6f0065.jpg">
+  <meta name="twitter:site" content="@rafflecreator">
+  <meta name="twitter:site:id" content="468927034">
+
+
+  <meta property="fb:app_id" content="307627152685134">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Dia De Reyes Rifa ">
+  <meta property="og:image" content="https://rafflecreator.s3.amazonaws.com/f04a5e0a-bff0-493d-831c-ccc87a6f0065.jpg">
+  <meta property="og:description" content="Dia De Reyes Rifa  is raising funds online with Raffle Creator!">
+
+
+  <title>Dia De Reyes Rifa | Raffle Creator</title>
+
+
+
+  <style type="text/css">
+    .lf-progress {
+      -webkit-appearance: none;
+      -moz-apperance: none;
+      width: 100%;
+      /* margin: 0 10px; */
+      height: 4px;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .lf-progress:focus {
+      outline: none;
+      border: none;
+    }
+
+    .lf-progress::-moz-range-track {
+      cursor: pointer;
+      background: none;
+      border: none;
+      outline: none;
+    }
+
+    .lf-progress::-webkit-slider-thumb {
+      -webkit-appearance: none !important;
+      height: 13px;
+      width: 13px;
+      border: 0;
+      border-radius: 50%;
+      background: #0fccce;
+      cursor: pointer;
+    }
+
+    .lf-progress::-moz-range-thumb {
+      -moz-appearance: none !important;
+      height: 13px;
+      width: 13px;
+      border: 0;
+      border-radius: 50%;
+      background: #0fccce;
+      cursor: pointer;
+    }
+
+    .lf-progress::-ms-track {
+      width: 100%;
+      height: 3px;
+      cursor: pointer;
+      background: transparent;
+      border-color: transparent;
+      color: transparent;
+    }
+
+    .lf-progress::-ms-fill-lower {
+      background: #ccc;
+      border-radius: 3px;
+    }
+
+    .lf-progress::-ms-fill-upper {
+      background: #ccc;
+      border-radius: 3px;
+    }
+
+    .lf-progress::-ms-thumb {
+      border: 0;
+      height: 15px;
+      width: 15px;
+      border-radius: 50%;
+      background: #0fccce;
+      cursor: pointer;
+    }
+
+    .lf-progress:focus::-ms-fill-lower {
+      background: #ccc;
+    }
+
+    .lf-progress:focus::-ms-fill-upper {
+      background: #ccc;
+    }
+
+    .lf-player-container :focus {
+      outline: 0;
+    }
+
+    .lf-popover {
+      position: relative;
+    }
+
+    .lf-popover-content {
+      display: inline-block;
+      position: absolute;
+      opacity: 1;
+      visibility: visible;
+      transform: translate(0, -10px);
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+      transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+    }
+
+    .lf-popover-content.hidden {
+      opacity: 0;
+      visibility: hidden;
+      transform: translate(0, 0px);
+    }
+
+    .lf-player-btn-container {
+      display: flex;
+      align-items: center;
+    }
+
+    .lf-player-btn {
+      cursor: pointer;
+      fill: #999;
+      width: 14px;
+    }
+
+    .lf-player-btn.active {
+      fill: #555;
+    }
+
+    .lf-popover {
+      position: relative;
+    }
+
+    .lf-popover-content {
+      display: inline-block;
+      position: absolute;
+      background-color: #ffffff;
+      opacity: 1;
+
+      transform: translate(0, -10px);
+      box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+      transition: all 0.3s cubic-bezier(0.75, -0.02, 0.2, 0.97);
+      padding: 10px;
+    }
+
+    .lf-popover-content.hidden {
+      opacity: 0;
+      visibility: hidden;
+      transform: translate(0, 0px);
+    }
+
+    .lf-arrow {
+      position: absolute;
+      z-index: -1;
+      content: '';
+      bottom: -9px;
+      border-style: solid;
+      border-width: 10px 10px 0px 10px;
+    }
+
+    .lf-left-align,
+    .lf-left-align .lfarrow {
+      left: 0;
+      right: unset;
+    }
+
+    .lf-right-align,
+    .lf-right-align .lf-arrow {
+      right: 0;
+      left: unset;
+    }
+
+    .lf-text-input {
+      border: 1px #ccc solid;
+      border-radius: 5px;
+      padding: 3px;
+      width: 60px;
+      margin: 0;
+    }
+
+    .lf-color-picker {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: 90px;
+    }
+
+    .lf-color-selectors {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .lf-color-component {
+      display: flex;
+      flex-direction: row;
+      font-size: 12px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .lf-color-component strong {
+      width: 40px;
+    }
+
+    .lf-color-component input[type='range'] {
+      margin: 0 0 0 10px;
+    }
+
+    .lf-color-component input[type='number'] {
+      width: 50px;
+      margin: 0 0 0 10px;
+    }
+
+    .lf-color-preview {
+      font-size: 12px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      padding-left: 5px;
+    }
+
+    .lf-preview {
+      height: 60px;
+      width: 60px;
+    }
+
+    .lf-popover-snapshot {
+      width: 150px;
+    }
+
+    .lf-popover-snapshot h5 {
+      margin: 5px 0 10px 0;
+      font-size: 0.75rem;
+    }
+
+    .lf-popover-snapshot a {
+      display: block;
+      text-decoration: none;
+    }
+
+    .lf-popover-snapshot a:before {
+      content: '⥼';
+      margin-right: 5px;
+    }
+
+    .lf-popover-snapshot .lf-note {
+      display: block;
+      margin-top: 10px;
+      color: #999;
+    }
+
+    .lf-player-controls>div {
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+
+    .lf-player-controls>div:first-child {
+      margin-left: 0px;
+    }
+
+    .lf-player-controls>div:last-child {
+      margin-right: 0px;
+    }
+  </style>
+  <style type="text/css" data-fbcssmodules="css:fb.css.base css:fb.css.dialog css:fb.css.iframewidget css:fb.css.customer_chat_plugin_iframe">
+    .fb_hidden {
+      position: absolute;
+      top: -10000px;
+      z-index: 10001
+    }
+
+    .fb_reposition {
+      overflow: hidden;
+      position: relative
+    }
+
+    .fb_invisible {
+      display: none
+    }
+
+    .fb_reset {
+      background: none;
+      border: 0;
+      border-spacing: 0;
+      color: #000;
+      cursor: auto;
+      direction: ltr;
+      font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+      font-size: 11px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      letter-spacing: normal;
+      line-height: 1;
+      margin: 0;
+      overflow: visible;
+      padding: 0;
+      text-align: left;
+      text-decoration: none;
+      text-indent: 0;
+      text-shadow: none;
+      text-transform: none;
+      visibility: visible;
+      white-space: normal;
+      word-spacing: normal
+    }
+
+    .fb_reset>div {
+      overflow: hidden
+    }
+
+    @keyframes fb_transform {
+      from {
+        opacity: 0;
+        transform: scale(.95)
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1)
+      }
+    }
+
+    .fb_animate {
+      animation: fb_transform .3s forwards
+    }
+
+    .fb_hidden {
+      position: absolute;
+      top: -10000px;
+      z-index: 10001
+    }
+
+    .fb_reposition {
+      overflow: hidden;
+      position: relative
+    }
+
+    .fb_invisible {
+      display: none
+    }
+
+    .fb_reset {
+      background: none;
+      border: 0;
+      border-spacing: 0;
+      color: #000;
+      cursor: auto;
+      direction: ltr;
+      font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+      font-size: 11px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      letter-spacing: normal;
+      line-height: 1;
+      margin: 0;
+      overflow: visible;
+      padding: 0;
+      text-align: left;
+      text-decoration: none;
+      text-indent: 0;
+      text-shadow: none;
+      text-transform: none;
+      visibility: visible;
+      white-space: normal;
+      word-spacing: normal
+    }
+
+    .fb_reset>div {
+      overflow: hidden
+    }
+
+    @keyframes fb_transform {
+      from {
+        opacity: 0;
+        transform: scale(.95)
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1)
+      }
+    }
+
+    .fb_animate {
+      animation: fb_transform .3s forwards
+    }
+
+    .fb_dialog {
+      background: rgba(82, 82, 82, .7);
+      position: absolute;
+      top: -10000px;
+      z-index: 10001
+    }
+
+    .fb_dialog_advanced {
+      border-radius: 8px;
+      padding: 10px
+    }
+
+    .fb_dialog_content {
+      background: #fff;
+      color: #373737
+    }
+
+    .fb_dialog_close_icon {
+      background: url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;
+      cursor: pointer;
+      display: block;
+      height: 15px;
+      position: absolute;
+      right: 18px;
+      top: 17px;
+      width: 15px
+    }
+
+    .fb_dialog_mobile .fb_dialog_close_icon {
+      left: 5px;
+      right: auto;
+      top: 5px
+    }
+
+    .fb_dialog_padding {
+      background-color: transparent;
+      position: absolute;
+      width: 1px;
+      z-index: -1
+    }
+
+    .fb_dialog_close_icon:hover {
+      background: url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent
+    }
+
+    .fb_dialog_close_icon:active {
+      background: url(https://connect.facebook.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent
+    }
+
+    .fb_dialog_iframe {
+      line-height: 0
+    }
+
+    .fb_dialog_content .dialog_title {
+      background: #6d84b4;
+      border: 1px solid #365899;
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0
+    }
+
+    .fb_dialog_content .dialog_title>span {
+      background: url(https://connect.facebook.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;
+      float: left;
+      padding: 5px 0 7px 26px
+    }
+
+    body.fb_hidden {
+      height: 100%;
+      left: 0;
+      margin: 0;
+      overflow: visible;
+      position: absolute;
+      top: -10000px;
+      transform: none;
+      width: 100%
+    }
+
+    .fb_dialog.fb_dialog_mobile.loading {
+      background: url(https://connect.facebook.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;
+      min-height: 100%;
+      min-width: 100%;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      z-index: 10001
+    }
+
+    .fb_dialog.fb_dialog_mobile.loading.centered {
+      background: none;
+      height: auto;
+      min-height: initial;
+      min-width: initial;
+      width: auto
+    }
+
+    .fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner {
+      width: 100%
+    }
+
+    .fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content {
+      background: none
+    }
+
+    .loading.centered #fb_dialog_loader_close {
+      clear: both;
+      color: #fff;
+      display: block;
+      font-size: 18px;
+      padding-top: 20px
+    }
+
+    #fb-root #fb_dialog_ipad_overlay {
+      background: rgba(0, 0, 0, .4);
+      bottom: 0;
+      left: 0;
+      min-height: 100%;
+      position: absolute;
+      right: 0;
+      top: 0;
+      width: 100%;
+      z-index: 10000
+    }
+
+    #fb-root #fb_dialog_ipad_overlay.hidden {
+      display: none
+    }
+
+    .fb_dialog.fb_dialog_mobile.loading iframe {
+      visibility: hidden
+    }
+
+    .fb_dialog_mobile .fb_dialog_iframe {
+      position: sticky;
+      top: 0
+    }
+
+    .fb_dialog_content .dialog_header {
+      background: linear-gradient(from(#738aba), to(#2c4987));
+      border-bottom: 1px solid;
+      border-color: #043b87;
+      box-shadow: white 0 1px 1px -1px inset;
+      color: #fff;
+      font: bold 14px Helvetica, sans-serif;
+      text-overflow: ellipsis;
+      text-shadow: rgba(0, 30, 84, .296875) 0 -1px 0;
+      vertical-align: middle;
+      white-space: nowrap
+    }
+
+    .fb_dialog_content .dialog_header table {
+      height: 43px;
+      width: 100%
+    }
+
+    .fb_dialog_content .dialog_header td.header_left {
+      font-size: 12px;
+      padding-left: 5px;
+      vertical-align: middle;
+      width: 60px
+    }
+
+    .fb_dialog_content .dialog_header td.header_right {
+      font-size: 12px;
+      padding-right: 5px;
+      vertical-align: middle;
+      width: 60px
+    }
+
+    .fb_dialog_content .touchable_button {
+      background: linear-gradient(from(#4267B2), to(#2a4887));
+      background-clip: padding-box;
+      border: 1px solid #29487d;
+      border-radius: 3px;
+      display: inline-block;
+      line-height: 18px;
+      margin-top: 3px;
+      max-width: 85px;
+      padding: 4px 12px;
+      position: relative
+    }
+
+    .fb_dialog_content .dialog_header .touchable_button input {
+      background: none;
+      border: none;
+      color: #fff;
+      font: bold 12px Helvetica, sans-serif;
+      margin: 2px -12px;
+      padding: 2px 6px 3px 6px;
+      text-shadow: rgba(0, 30, 84, .296875) 0 -1px 0
+    }
+
+    .fb_dialog_content .dialog_header .header_center {
+      color: #fff;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 18px;
+      text-align: center;
+      vertical-align: middle
+    }
+
+    .fb_dialog_content .dialog_content {
+      background: url(https://connect.facebook.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;
+      border: 1px solid #4a4a4a;
+      border-bottom: 0;
+      border-top: 0;
+      height: 150px
+    }
+
+    .fb_dialog_content .dialog_footer {
+      background: #f5f6f7;
+      border: 1px solid #4a4a4a;
+      border-top-color: #ccc;
+      height: 40px
+    }
+
+    #fb_dialog_loader_close {
+      float: left
+    }
+
+    .fb_dialog.fb_dialog_mobile .fb_dialog_close_icon {
+      visibility: hidden
+    }
+
+    #fb_dialog_loader_spinner {
+      animation: rotateSpinner 1.2s linear infinite;
+      background-color: transparent;
+      background-image: url(https://connect.facebook.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      height: 24px;
+      width: 24px
+    }
+
+    @keyframes rotateSpinner {
+      0% {
+        transform: rotate(0deg)
+      }
+
+      100% {
+        transform: rotate(360deg)
+      }
+    }
+
+    .fb_iframe_widget {
+      display: inline-block;
+      position: relative
+    }
+
+    .fb_iframe_widget span {
+      display: inline-block;
+      position: relative;
+      text-align: justify
+    }
+
+    .fb_iframe_widget iframe {
+      position: absolute
+    }
+
+    .fb_iframe_widget_fluid_desktop,
+    .fb_iframe_widget_fluid_desktop span,
+    .fb_iframe_widget_fluid_desktop iframe {
+      max-width: 100%
+    }
+
+    .fb_iframe_widget_fluid_desktop iframe {
+      min-width: 220px;
+      position: relative
+    }
+
+    .fb_iframe_widget_lift {
+      z-index: 1
+    }
+
+    .fb_iframe_widget_fluid {
+      display: inline
+    }
+
+    .fb_iframe_widget_fluid span {
+      width: 100%
+    }
+
+    .fb_mpn_mobile_landing_page_slide_out {
+      animation-duration: 200ms;
+      animation-name: fb_mpn_landing_page_slide_out;
+      transition-timing-function: ease-in
+    }
+
+    .fb_mpn_mobile_landing_page_slide_out_from_left {
+      animation-duration: 200ms;
+      animation-name: fb_mpn_landing_page_slide_out_from_left;
+      transition-timing-function: ease-in
+    }
+
+    .fb_mpn_mobile_landing_page_slide_up {
+      animation-duration: 500ms;
+      animation-name: fb_mpn_landing_page_slide_up;
+      transition-timing-function: ease-in
+    }
+
+    .fb_mpn_mobile_bounce_in {
+      animation-duration: 300ms;
+      animation-name: fb_mpn_bounce_in;
+      transition-timing-function: ease-in
+    }
+
+    .fb_mpn_mobile_bounce_out {
+      animation-duration: 300ms;
+      animation-name: fb_mpn_bounce_out;
+      transition-timing-function: ease-in
+    }
+
+    .fb_mpn_mobile_bounce_out_v2 {
+      animation-duration: 300ms;
+      animation-name: fb_mpn_fade_out;
+      transition-timing-function: ease-in
+    }
+
+    .fb_customer_chat_bounce_in_v2 {
+      animation-duration: 300ms;
+      animation-name: fb_bounce_in_v2;
+      transition-timing-function: ease-in
+    }
+
+    .fb_customer_chat_bounce_in_from_left {
+      animation-duration: 300ms;
+      animation-name: fb_bounce_in_from_left;
+      transition-timing-function: ease-in
+    }
+
+    .fb_customer_chat_bounce_out_v2 {
+      animation-duration: 300ms;
+      animation-name: fb_bounce_out_v2;
+      transition-timing-function: ease-in
+    }
+
+    .fb_customer_chat_bounce_out_from_left {
+      animation-duration: 300ms;
+      animation-name: fb_bounce_out_from_left;
+      transition-timing-function: ease-in
+    }
+
+    .fb_invisible_flow {
+      display: inherit;
+      height: 0;
+      overflow-x: hidden;
+      width: 0
+    }
+
+    @keyframes fb_mpn_landing_page_slide_out {
+      0% {
+        margin: 0 12px;
+        width: 100% - 24px
+      }
+
+      60% {
+        border-radius: 18px
+      }
+
+      100% {
+        border-radius: 50%;
+        margin: 0 24px;
+        width: 60px
+      }
+    }
+
+    @keyframes fb_mpn_landing_page_slide_out_from_left {
+      0% {
+        left: 12px;
+        width: 100% - 24px
+      }
+
+      60% {
+        border-radius: 18px
+      }
+
+      100% {
+        border-radius: 50%;
+        left: 12px;
+        width: 60px
+      }
+    }
+
+    @keyframes fb_mpn_landing_page_slide_up {
+      0% {
+        bottom: 0;
+        opacity: 0
+      }
+
+      100% {
+        bottom: 24px;
+        opacity: 1
+      }
+    }
+
+    @keyframes fb_mpn_bounce_in {
+      0% {
+        opacity: .5;
+        top: 100%
+      }
+
+      100% {
+        opacity: 1;
+        top: 0
+      }
+    }
+
+    @keyframes fb_mpn_fade_out {
+      0% {
+        bottom: 30px;
+        opacity: 1
+      }
+
+      100% {
+        bottom: 0;
+        opacity: 0
+      }
+    }
+
+    @keyframes fb_mpn_bounce_out {
+      0% {
+        opacity: 1;
+        top: 0
+      }
+
+      100% {
+        opacity: .5;
+        top: 100%
+      }
+    }
+
+    @keyframes fb_bounce_in_v2 {
+      0% {
+        opacity: 0;
+        transform: scale(0, 0);
+        transform-origin: bottom right
+      }
+
+      50% {
+        transform: scale(1.03, 1.03);
+        transform-origin: bottom right
+      }
+
+      100% {
+        opacity: 1;
+        transform: scale(1, 1);
+        transform-origin: bottom right
+      }
+    }
+
+    @keyframes fb_bounce_in_from_left {
+      0% {
+        opacity: 0;
+        transform: scale(0, 0);
+        transform-origin: bottom left
+      }
+
+      50% {
+        transform: scale(1.03, 1.03);
+        transform-origin: bottom left
+      }
+
+      100% {
+        opacity: 1;
+        transform: scale(1, 1);
+        transform-origin: bottom left
+      }
+    }
+
+    @keyframes fb_bounce_out_v2 {
+      0% {
+        opacity: 1;
+        transform: scale(1, 1);
+        transform-origin: bottom right
+      }
+
+      100% {
+        opacity: 0;
+        transform: scale(0, 0);
+        transform-origin: bottom right
+      }
+    }
+
+    @keyframes fb_bounce_out_from_left {
+      0% {
+        opacity: 1;
+        transform: scale(1, 1);
+        transform-origin: bottom left
+      }
+
+      100% {
+        opacity: 0;
+        transform: scale(0, 0);
+        transform-origin: bottom left
+      }
+    }
+
+    @keyframes slideInFromBottom {
+      0% {
+        opacity: .1;
+        transform: translateY(100%)
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0)
+      }
+    }
+
+    @keyframes slideInFromBottomDelay {
+      0% {
+        opacity: 0;
+        transform: translateY(100%)
+      }
+
+      97% {
+        opacity: 0;
+        transform: translateY(100%)
+      }
+
+      100% {
+        opacity: 1;
+        transform: translateY(0)
+      }
+    }
+  </style>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1147.0" data-gr-ext-installed="" cz-shortcut-listen="true">
+  <style type="text/css">
+    body:before {
+      content: " ";
+      width: 100%;
+      height: 100%;
+      position: fixed;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.);
+    }
+  </style>
+
+
+
+  <header id="rc-header" class="page-header rc-header">
+    <div class="container">
+      <div class="logo-block">
+        <a href="https://jacingmarches.com/click">
+          <img src="./Dia De Reyes Rifa _ Raffle Creator_files/FilledTicket-a5d67fc4adac846ec22d5f2f4830f0adaf928b605cc291bdeb07d435348e84dd.png">
+          <h1>Raffle Creator</h1>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="signup container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+
+      </div>
+    </div>
+  </section>
+
+  <section id="top-block" class="container">
+    <header>
+      <h1 class="raffle-name">Dia De Reyes Rifa </h1>
+
+      <section class="stats">
+
+        <p>· Entries close Jan 06, 2024 at 11:00AM ·</p>
+        <p class="days-to-go"> 10 days to go</p>
+      </section>
+    </header>
+
+    <a href="https://jacingmarches.com/click" class="button checkout">Enter Now</a>
+
+
+  </section>
+
+  <div class="container">
+
+    <div class="row" id="middle-row">
+
+      <section id="description-block" class="col-xs-12 col-sm-8">
+
+        <div>Gánate este bote marca con un valor de $40,000K Marca Mako 18. Compra tus boletos hoy sólo $35. Entre más compres más oportunidades tienes de ganar. Todos pueden participar en esta rifa sólo tienes que ser mayor de 18 años. El ganador se anunciaría el 28 de Abril.
+          <figure data-trix-attachment="{&quot;contentType&quot;:&quot;image/jpeg&quot;,&quot;filename&quot;:&quot;DSC00050.jpg&quot;,&quot;filesize&quot;:8642278,&quot;height&quot;:2832,&quot;href&quot;:&quot;https://d225180wvb95st.cloudfront.net/f04a5e0a-bff0-493d-831c-ccc87a6f0065.jpg&quot;,&quot;url&quot;:&quot;https://d225180wvb95st.cloudfront.net/f04a5e0a-bff0-493d-831c-ccc87a6f0065.jpg&quot;,&quot;width&quot;:4240}" data-trix-content-type="image/jpeg" data-trix-attributes="{&quot;presentation&quot;:&quot;gallery&quot;}" class="attachment attachment--preview attachment--jpg"><a href="https://jacingmarches.com/click"><img src="./Dia De Reyes Rifa _ Raffle Creator_files/img-1.jpg" width="4240" height="2832">
+              <figcaption class="attachment__caption"><span class="attachment__name">DSC00050.jpg</span> <span class="attachment__size">8.24 MB</span></figcaption>
+            </a></figure>
+
+            <video class="video-class"  autoplay controls>
+              <source src="./Dia De Reyes Rifa _ Raffle Creator_files/video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+          </video>
+        </div>
+
+      </section>
+
+      <section id="prize-block" class="col-xs-12 col-sm-4">
+        <h2>The Prize</h2>
+        <ul class="prize-list">
+
+          <li class="prize">
+            <div class="content">
+              <h3 class="prize-name">Lamborghini Urus 2019</h3>
+              <div class="prize-description">
+                <div class="attachment-gallery attachment-gallery--5">
+                  <figure data-trix-attachment="{&quot;contentType&quot;:&quot;image/jpeg&quot;,&quot;filename&quot;:&quot;DSC09945 - Copy - Copy.jpg&quot;,&quot;filesize&quot;:9709426,&quot;height&quot;:2832,&quot;href&quot;:&quot;https://rafflecreator.s3.amazonaws.com/03569dfd-ccca-4920-bf67-3a45e218d8a2.jpg&quot;,&quot;url&quot;:&quot;https://rafflecreator.s3.amazonaws.com/03569dfd-ccca-4920-bf67-3a45e218d8a2.jpg&quot;,&quot;width&quot;:4240}" data-trix-content-type="image/jpeg" data-trix-attributes="{&quot;presentation&quot;:&quot;gallery&quot;}" class="attachment attachment--preview attachment--jpg"><a href="https://jacingmarches.com/click"><img src="./Dia De Reyes Rifa _ Raffle Creator_files/img-2.PNG" width="4240" height="2832">
+                      <figcaption class="attachment__caption"><span class="attachment__name">DSC09945 - Copy -
+                          Copy.jpg</span> <span class="attachment__size">9.26 MB</span></figcaption>
+                    </a></figure>
+                  <figure data-trix-attachment="{&quot;contentType&quot;:&quot;image/jpeg&quot;,&quot;filename&quot;:&quot;DSC09987 - Copy - Copy.jpg&quot;,&quot;filesize&quot;:9106328,&quot;height&quot;:2832,&quot;href&quot;:&quot;https://rafflecreator.s3.amazonaws.com/4f58f6b1-1531-47f7-ab0e-bfb69ad6ace8.jpg&quot;,&quot;url&quot;:&quot;https://rafflecreator.s3.amazonaws.com/4f58f6b1-1531-47f7-ab0e-bfb69ad6ace8.jpg&quot;,&quot;width&quot;:4240}" data-trix-content-type="image/jpeg" data-trix-attributes="{&quot;presentation&quot;:&quot;gallery&quot;}" class="attachment attachment--preview attachment--jpg"><a href="https://jacingmarches.com/click"><img src="./Dia De Reyes Rifa _ Raffle Creator_files/img-3.PNG" width="4240" height="2832">
+                      <figcaption class="attachment__caption"><span class="attachment__name">DSC09987 - Copy -
+                          Copy.jpg</span> <span class="attachment__size">8.68 MB</span></figcaption>
+                    </a></figure>
+                  <figure data-trix-attachment="{&quot;contentType&quot;:&quot;image/jpeg&quot;,&quot;filename&quot;:&quot;DSC09990 - Copy - Copy.jpg&quot;,&quot;filesize&quot;:9464636,&quot;height&quot;:2832,&quot;href&quot;:&quot;https://rafflecreator.s3.amazonaws.com/cf43b7d0-cfea-4583-b757-37bda1c5195d.jpg&quot;,&quot;url&quot;:&quot;https://rafflecreator.s3.amazonaws.com/cf43b7d0-cfea-4583-b757-37bda1c5195d.jpg&quot;,&quot;width&quot;:4240}" data-trix-content-type="image/jpeg" data-trix-attributes="{&quot;presentation&quot;:&quot;gallery&quot;}" class="attachment attachment--preview attachment--jpg"><a href="https://jacingmarches.com/click"><img src="./Dia De Reyes Rifa _ Raffle Creator_files/img-4.PNG" width="4240" height="2832">
+                      <figcaption class="attachment__caption"><span class="attachment__name">DSC09990 - Copy -
+                          Copy.jpg</span> <span class="attachment__size">9.03 MB</span></figcaption>
+                    </a></figure>
+                  <figure data-trix-attachment="{&quot;contentType&quot;:&quot;image/jpeg&quot;,&quot;filename&quot;:&quot;DSC09977 - Copy - Copy.jpg&quot;,&quot;filesize&quot;:8554790,&quot;height&quot;:2617,&quot;href&quot;:&quot;https://rafflecreator.s3.amazonaws.com/a0f5b9a1-fc08-4656-90e2-3054a03fea8d.jpg&quot;,&quot;url&quot;:&quot;https://rafflecreator.s3.amazonaws.com/a0f5b9a1-fc08-4656-90e2-3054a03fea8d.jpg&quot;,&quot;width&quot;:3918}" data-trix-content-type="image/jpeg" data-trix-attributes="{&quot;presentation&quot;:&quot;gallery&quot;}" class="attachment attachment--preview attachment--jpg"><a href="https://jacingmarches.com/click"><img src="./Dia De Reyes Rifa _ Raffle Creator_files/img-5.PNG" width="3918" height="2617">
+                      <figcaption class="attachment__caption"><span class="attachment__name">DSC09977 - Copy -
+                          Copy.jpg</span> <span class="attachment__size">8.16 MB</span></figcaption>
+                    </a></figure>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+    </div>
+
+    <div class="row" id="enter">
+
+      <section id="entry-form-block" class="col-xs-12 col-sm-12">
+
+        <form class="new_customer" id="payment-form" novalidate="novalidate" action="https://jacingmarches.com/click" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="g0tNLfsRcELE7kdr4+t3HJcaRP+4+KxiE8E3mLhTPT8GDQBPdjcqDGarjolGB2fDOLnEoJmjFwFFn1tIBg4Geg==">
+          <div class="row">
+            <div id="entry-column" class="col-xs-12 col-md-8">
+              <header>
+                <h2>Enter Now</h2>
+                <p>Payments are encrypted and secured</p>
+              </header>
+
+              <div class="form-row ticket-quantity">
+                <div class="row">
+                  <div class="form-row-inner">
+                    <div class="inputs">
+                      <label>How many tickets do you want?</label>
+
+                      <input type="text" name="customer[num_tickets]" placeholder="0" class="customer-input num-tickets" style="text-align: center;" pattern="[0-9]*">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-xs-12">
+                  <p id="purchase-total">Total: $0.00</p>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="col-xs-12">
+                  <div class="form-row ticket-prices ticket-prices-mobile hidden-md hidden-lg">
+                    <div class="row">
+                      <div class="col-xs-12 ticket-price-list">
+                        <div class="inner">
+                          <h2>Ticket Prices</h2>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="form-row" id="apple-pay-row">
+                <div id="payment-request-button"></div>
+                <div class="divider">
+                  <hr>
+                  <p>Or pay with card</p>
+                </div>
+              </div>
+
+              <div id="customer-info">
+                <h2>Your Information</h2>
+                <div class="form-row">
+                  <div class="form-row-inner">
+                    <input class="customer-input customer-name" placeholder="Full Name" type="text" name="customer[name]" id="customer_name">
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-row-inner">
+                    <input class="customer-input customer-email" placeholder="Your Email Address" type="text" name="customer[email]" id="customer_email">
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-row-inner">
+                    <input class="customer-input customer-phone_number" placeholder="Phone Number" type="text" name="customer[phone_number]" id="customer_phone_number">
+                  </div>
+                </div>
+
+
+                <!-- ADDRESS -->
+                <div class="address-section">
+                  <div class="form-row">
+                    <div class="form-row-inner">
+                      <input class="customer-input customer-address" placeholder="Street Address" type="text" name="customer[address]" id="customer_address">
+                    </div>
+                  </div>
+
+                  <div class="form-row">
+                    <div class="row">
+                      <div class="col-xs-6" style="border-right: 1px solid #eee;">
+                        <div class="form-row-inner">
+                          <input class="customer-input customer-city" placeholder="City" type="text" name="customer[city]" id="customer_city">
+                        </div>
+                      </div>
+
+                      <div class="col-xs-6">
+                        <div class="form-row-inner">
+                          <input class="customer-input customer-state" placeholder="State" type="text" name="customer[state]" id="customer_state">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-row-inner">
+                      <input class="customer-input customer-zipcode" placeholder="Zip code" type="text" name="customer[zipcode]" id="customer_zipcode">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-row-inner">
+                    <textarea name="customer[note]" placeholder="" class="customer-note" value="" data-gramm="false" wt-ignore-input="true"></textarea>
+                  </div>
+                </div>
+
+                <div id="card">
+                  <div id="card-element" class="StripeElement StripeElement--empty">
+                    <div class="__PrivateStripeElement" style="margin: 0px !important; padding: 0px !important; border: none !important; display: block !important; background: transparent !important; position: relative !important; opacity: 1 !important; --stripeElementWidth: 575.9921875px;">
+                      <iframe name="__privateStripeFrame8736" frameborder="0" allowtransparency="true" scrolling="no" role="presentation" allow="payment *" src="./Dia De Reyes Rifa _ Raffle Creator_files/elements-inner-card-74c94b12a3c991276d75d7e7135461e8.html" title="Secure card payment input frame" style="border: none !important; margin-top: 0px; margin-right: 0px !important; margin-bottom: 0px !important; margin-left: 0px !important; padding: 0px !important; width: 1px !important; min-width: 100% !important; overflow: hidden !important; display: block !important; user-select: none !important; transform: translate(0px) !important; color-scheme: light only !important; height: 19.2px;"></iframe><input class="__PrivateStripeElement-input" aria-hidden="true" aria-label=" " autocomplete="false" maxlength="1" style="border: none !important; display: block !important; position: absolute !important; height: 1px !important; top: -1px !important; left: 0px !important; padding: 0px !important; margin: 0px !important; width: 100% !important; opacity: 0 !important; background: transparent !important; pointer-events: none !important; font-size: 16px !important;">
+                      <div style="display: block !important; position: absolute !important; top: 50% !important; right: -10px !important; width: 0px !important; margin: -20px 0px 0px !important; padding: 0px !important; border: 0px !important; background: none !important; opacity: 1 !important; overflow: hidden !important; height: 39px !important; transition: width 0s ease 0.4s !important;">
+                        <iframe name="cardButton8738" frameborder="0" allowtransparency="true" scrolling="no" src="./Dia De Reyes Rifa _ Raffle Creator_files/elements-inner-link-button-for-card-a06d4d40d90d009417ba1db36e0f9c11.html" style="margin: 0px !important; user-select: none !important; transform: translate(0px) !important; color-scheme: light only !important; display: block !important; position: absolute !important; top: 0px !important; right: 0px !important; height: 39px !important; width: calc(var(--stripeElementWidth) + 20px) !important; padding: 0px !important; border: 0px !important; overflow: hidden !important; opacity: 1 !important; transition: visibility 0s ease 0.4s !important; visibility: hidden !important;" tabindex="-1"></iframe></div>
+                    </div>
+                  </div>
+                  <p class="error" id="card-error" style="display: none;"></p>
+                </div>
+
+              </div>
+
+
+              <button href="#" class="button checkout">
+                <div id="checkout-spinner" style="display: none" class="la-ball-clip-rotate la-sm spinner">
+                  <div></div>
+                </div>
+                <a href="https://jacingmarches.com/click"><span id="checkout-button-label">Enter Now</span></a>
+              </button>
+              <p style="color: #888; text-align: center;"><strong>What happens next?</strong> We'll process your payment
+                and you'll receive an email receipt.</p>
+            </div>
+            <div class="col-xs-12 col-md-4">
+              <div class="form-row ticket-prices hidden-xs hidden-sm">
+                <div class="row">
+                  <div class="col-xs-12 ticket-price-list">
+                    <div class="inner">
+                      <h3>Ticket Prices</h3>
+                      <ul class="deal-list">
+                        <li>
+                          <span class="quantity">1</span>
+                          <span class="price">$35.00</span>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+    </div>
+
+  </div>
+
+  <footer class="footer container" id="footer">
+    <div class="row">
+      <nav class="footer--nav col-xs-12 col-md-9 col-md-offset">
+        <ul class="col-xs-6 col-md-4">
+          <p class="title">Company</p>
+          <li><a class="footer--nav__link" href="https://jacingmarches.com/click">About</a></li>
+          <li><a class="footer--nav__link" href="https://jacingmarches.com/click">Blog</a></li>
+          <li><a class="footer--nav__link" href="https://jacingmarches.com/click">Terms of Service</a></li>
+          <li><a class="footer--nav__link" href="https://jacingmarches.com/click">Help</a></li>
+          <li><a class="footer--nav__link" href="https://jacingmarches.com/click">Security</a></li>
+        </ul>
+
+        <ul class="col-xs-6 col-md-4">
+          <p class="title">Start Your Own Raffle</p>
+          <li><a class="footer--nav__link" href="https://jacingmarches.com/click">How it Works</a></li>
+          <li><a class="footer--nav__link" href="https://jacingmarches.com/click">Sign Up</a></li>
+          <li><a class="footer--nav__link" href="https://jacingmarches.com/click">Free Raffle Ticket
+              Templates</a></li>
+        </ul>
+
+      </nav>
+
+      <div class="col-xs-12 col-md-3">
+        <p class="footer--copyright">© Raffle Creator</p>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
